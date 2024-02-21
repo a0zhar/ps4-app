@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Open Orbis Toolchain
-        uses: OpenOrbis/toolchain-action@main
+        uses: OpenOrbis/OpenOrbis-PS4-Toolchain@main
         with:
           version: latest
           command: cd hello_world; make; PkgTool.Core pkg_build pkg/pkg.gp4 .
